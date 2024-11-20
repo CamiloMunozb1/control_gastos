@@ -1,3 +1,5 @@
+from funciones_sql.usuario_new import ingreso_usuario
+
 while True:
     print(
         """
@@ -11,7 +13,7 @@ while True:
     try:
         usuario = int(input("Ingresa una opcion: "))
         if usuario == 1:
-            print("Proxima funcion.")
+            ingreso_usuario()
         elif usuario == 2:
             print("Proxima funcion.")
         elif usuario == 3:

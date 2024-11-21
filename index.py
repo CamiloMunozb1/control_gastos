@@ -1,4 +1,5 @@
 from funciones_sql.usuario_new import ingreso_usuario
+from funciones_sql.gastos_usuario import gastos_ingresados
 
 while True:
     print(
@@ -15,7 +16,7 @@ while True:
         if usuario == 1:
             ingreso_usuario()
         elif usuario == 2:
-            print("Proxima funcion.")
+            gastos_ingresados()
         elif usuario == 3:
             print("Proxima funcion.")
         else:

@@ -20,6 +20,7 @@ while True:
         elif usuario == 3:
             print("Proxima funcion.")
         else:
-            print("Proxima funcion.")
+            print("Gracias por usar el controlador de gastos, cuida tus ganancias.")
+            break
     except ValueError:
         print("Error de digitacion, volver a intentar")

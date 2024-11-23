@@ -1,5 +1,7 @@
 from funciones_sql.usuario_new import ingreso_usuario
 from funciones_sql.gastos_usuario import gastos_ingresados
+from funciones_sql.eliminar_gastos import eliminar_gastos
+from funciones_sql.datos_completos import mostrar_datos
 
 while True:
     print(
@@ -7,8 +9,9 @@ while True:
             Bienvenido al control de gastos, elije una opcion:
             1. Ingreso de nuevo usuario.
             2. Ingreso de gastos.
-            3. Mostrar gastos.
-            4. Salir
+            3. Eliminar gastos.
+            4. Mostrar gastos.
+            5. Salir
         """
     )
     try:
@@ -18,7 +21,9 @@ while True:
         elif usuario == 2:
             gastos_ingresados()
         elif usuario == 3:
-            print("Proxima funcion.")
+            eliminar_gastos()
+        elif usuario == 4:
+            mostrar_datos()
         else:
             print("Gracias por usar el controlador de gastos, cuida tus ganancias.")
             break

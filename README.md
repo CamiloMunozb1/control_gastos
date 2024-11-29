@@ -18,19 +18,19 @@ Control de Gastos es una aplicación desarrollada para gestionar y realizar un s
 
 1. Clona este repositorio:
 
-     git clone https://github.com/CamiloMunozb1/control_gastos.git
+          git clone https://github.com/CamiloMunozb1/control_gastos.git
    
 2. Navega al directorio del proyecto:
 
-     cd control_gastos
+          cd control_gastos
    
 3. Instala las dependencias necesarias:
 
-     pip install -r requirements.txt
+          pip install -r requirements.txt
 
 4. Ejecuta la aplicación:
 
-     python main.py
+          python main.py
 
 # Contribución
 
